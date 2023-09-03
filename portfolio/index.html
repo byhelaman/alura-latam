@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of frontend developer">
+  <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+  <title>Helaman Garcia | Front-end Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="./scss/main.css">
+</head>
+
+<body>
+  <main class="container" data-scroll-container>
+    <div class="wrp-mn">
+      <header id="header" class="header">
+        <a href="./"><img src="./assets/logo.svg" alt="Logo"></a>
+        <span><a href="#proyects" class="lnk" data-scroll-to>Proyects</a>, <a href="#about" class="lnk"
+            data-scroll-to>About</a></span>
+        <a href="mailto:byhelaman@gmail.com" class="lnk lnk-spcl">byhelaman@gmail.com</a>
+      </header>
+      <div class="wrp-ovw">
+        <section class="overview">
+          <div class="overview__text">
+            <h1>My name is Helaman Garcia, I'm a<span>front-end</span><span class="pdng">developer</span>and transform
+              ideas into code.</h1>
+          </div>
+          <div class="overview__buttons">
+            <a download="Helaman_Garcia" href="./assets/cv/helaman_garcia.pdf" class="btn">Resume</a>
+            <a href="#contact" class="btn btn-spcl" data-scroll-to>Contact →</a>
+          </div>
+        </section>
+      </div>
+      <div class="wrp-crsl">
+        <section class="splide spl-img">
+          <span>Discover ↓</span>
+          <div class="splide__track">
+            <ul class="splide__list list-img"></ul>
+          </div>
+        </section>
+      </div>
+      <div class="wrp-skls">
+        <section class="splides">
+          <h2>Skills and knowledge</h2>
+          <div class="splide spl-txt">
+            <div class="splide__track">
+              <ul class="splide__list list-one"></ul>
+            </div>
+          </div>
+          <div class="splide spl-txt-two">
+            <div class="splide__track">
+              <ul class="splide__list list-two"></ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="proyects" class="wrp-prjs">
+        <section class="projects">
+          <h2>Projects</h2>
+          <div>
+            <ul>
+              <li class="lnk-prjs"><a target="_blank" href="https://github.com/byhelaman/encryptor">Text
+                  encryptor<span>→</span></a>
+              </li>
+              <li class="lnk-prjs"><a target="_blank" href="https://github.com/byhelaman/asisti">Assistance
+                  system<span>→</span></a>
+              </li>
+              <li class="lnk-prjs"><a target="_blank"
+                  href="https://github.com/byhelaman/drumkit">Drumkit<span>→</span></a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div id="about" class="wrp-abt">
+        <section class="about-me">
+          <h2>About me</h2>
+          <div class="about-me__title">
+            <span>I'm always looking to learn something new to improve my skills.</span>
+          </div>
+          <div class="about-me__content about-me__content--exp">
+            <h3>Experience</h3>
+            <div class="info">
+              <p class="info__title">The best results come from websites that are easy to use, show the user what they
+                want to see and delight them. By analysing your current situation and defining your business goals.</p>
+              <ul>
+                <li>
+                  <h4>Front-end developer | Trainee</h4>
+                  <p>I participated in the development and design of a Marketplace, helped in the analysis and logic in
+                    the creation of components for the application; I was able to learn and use the React library.</p>
+                </li>
+                <li>
+                  <h4>Academic projects | Trainee</h4>
+                  <p>I developed a web system for inventory control, using PHP and MySQL. The system allowed to
+                    register,
+                    modify and consult products, as well as generate inventory reports.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-me__content about-me__content--edu">
+            <h3>Education</h3>
+            <div class="info">
+              <p class="info__title">The best results come from websites that are easy to use, show the user what they
+                want to see and delight them.</p>
+              <ul>
+                <li>
+                  <h4>AluraLatam | Front-end Developer</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur. In dui laoreet parturient ipsum elementum curabitur dictum
+                    ultricies ipsum.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="contact" class="wrp-cnt">
+        <section class="contact">
+          <div class="contact__title">
+            <span>Let's get to know each other.</span>
+            <span>Get in touch.</span>
+          </div>
+          <div class="contact__form">
+            <form id="form" novalidate>
+              <div class="splt">
+                <input type="text" id="name" name="name" placeholder="Jhon Doe">
+                <input type="text" id="phone" name="phone" placeholder="+51">
+              </div>
+              <input type="email" id="email" name="email" placeholder="example@company.com">
+              <div class="msg">
+                <textarea name="message" placeholder="I have an idea..."></textarea>
+                <input type="submit" id="submit" name="submit"><i class='ri-send-plane-2-fill'></i>
+              </div>
+            </form>
+          </div>
+          <div class="contact__social-media">
+            <ul class="">
+              <li class="">
+                <a target="_blank" href="https://github.com/byhelaman" class="lnk">Github</a>
+              </li>
+              <li class="">
+                <a target="_blank" href="https://linkedin.com/in/byhelaman" class="lnk">Linkedin</a>
+              </li>
+              <li class="">
+                <a target="_blank" href="https://twitter.com/byhelaman" class="lnk">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <span>Copyright© 2023</span>
+        <a href="#header" data-scroll-to>Back to top ↑</a>
+        <button>EN</button>
+      </footer>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

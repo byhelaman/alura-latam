@@ -1,0 +1,364 @@
+{
+  "products": [
+    {
+      "name": "Auriculares Bluetooth",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Auriculares inalámbricos con excelente calidad de sonido.",
+      "category": "Accesorios",
+      "brand": "TechSound",
+      "stock": "50",
+      "price": "39.99",
+      "features": [
+        "Conexión Bluetooth 5.0",
+        "Batería de larga duración",
+        "Cancelación de ruido"
+      ],
+      "id": "79a7ad89-4c1f-4a58-8f20-059e4b64d013"
+    },
+    {
+      "name": "Funda para Laptop",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Funda protectora para laptops de hasta 15 pulgadas.",
+      "category": "Accesorios",
+      "brand": "GearGuard",
+      "stock": "30",
+      "price": "19.99",
+      "features": [
+        "Material resistente al agua",
+        "Bolsillos adicionales",
+        "Correa de hombro ajustable"
+      ],
+      "id": "85fde235-93c4-43e5-9c1f-0171266be308"
+    },
+    {
+      "name": "PlayStation 5",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Consola de última generación con potente rendimiento y gráficos impresionantes.",
+      "category": "Consolas",
+      "brand": "Sony",
+      "stock": "10",
+      "price": "499.99",
+      "features": [
+        "CPU de 8 núcleos",
+        "SSD de alta velocidad",
+        "Compatibilidad con juegos de PS4"
+      ],
+      "id": "b81c54a2-1f45-4c43-9d8a-9b54a0bb6edc"
+    },
+    {
+      "name": "Cargador Solar Portátil",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Cargador solar compacto para cargar dispositivos en movimiento.",
+      "category": "Gadgets",
+      "brand": "SolarCharge",
+      "stock": "20",
+      "price": "29.99",
+      "features": [
+        "Panel solar de alta eficiencia",
+        "Batería interna de 10000 mAh",
+        "Linterna LED incorporada"
+      ],
+      "id": "6d6c92f2-2c2d-4e08-b998-9eb21e76aabb"
+    },
+    {
+      "name": "Drone Quadcopter HD",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Drone con cámara HD para capturar impresionantes tomas aéreas.",
+      "category": "Gadgets",
+      "brand": "SkyVision",
+      "stock": "15",
+      "price": "149.99",
+      "features": [
+        "Cámara 1080p ajustable",
+        "Modo de seguimiento automático",
+        "Control por smartphone"
+      ],
+      "id": "9f97b4ea-9d7a-46c6-9b3f-989d6b89e4f2"
+    },
+    {
+      "name": "Teclado Mecánico RGB",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Teclado mecánico con retroiluminación RGB y teclas personalizables.",
+      "category": "Accesorios",
+      "brand": "KeyMaster",
+      "stock": "25",
+      "price": "79.99",
+      "features": [
+        "Interruptores mecánicos",
+        "Efectos de iluminación personalizables",
+        "Reposamuñecas desmontable"
+      ],
+      "id": "c845d58a-40ab-4c49-8d4d-ee86257f8c87"
+    },
+    {
+      "name": "Cargador Inalámbrico",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Cargador inalámbrico rápido compatible con varios dispositivos.",
+      "category": "Accesorios",
+      "brand": "WirelessCharge",
+      "stock": "40",
+      "price": "29.99",
+      "features": [
+        "Carga rápida Qi",
+        "Diseño delgado y elegante",
+        "Indicadores LED de estado"
+      ],
+      "id": "7c6283b3-409e-42b6-87d4-9a8e5a6b20da"
+    },
+    {
+      "name": "Xbox Series X",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Consola de alta potencia con gráficos de vanguardia y juego fluido.",
+      "category": "Consolas",
+      "brand": "Microsoft",
+      "stock": "8",
+      "price": "549.99",
+      "features": [
+        "Procesador de 12 teraflops",
+        "SSD de velocidad ultraalta",
+        "Compatibilidad con Xbox Game Pass"
+      ],
+      "id": "1f4d9d06-8d6a-4a89-99d2-134c218b0ab7"
+    },
+    {
+      "name": "Altavoz Bluetooth Portátil",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Altavoz inalámbrico compacto con sonido envolvente de alta calidad.",
+      "category": "Gadgets",
+      "brand": "SoundWave",
+      "stock": "35",
+      "price": "49.99",
+      "features": [
+        "Conexión Bluetooth 4.2",
+        "Batería de larga duración",
+        "Resistente al agua"
+      ],
+      "id": "0c1b776d-1e22-4f6b-8a50-1526e7edf8b6"
+    },
+    {
+      "name": "Reloj Inteligente Fitness",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Reloj inteligente con seguimiento de actividad, ritmo cardíaco y notificaciones.",
+      "category": "Gadgets",
+      "brand": "FitTech",
+      "stock": "30",
+      "price": "89.99",
+      "features": [
+        "Pantalla táctil a color",
+        "Monitorización del sueño",
+        "GPS integrado"
+      ],
+      "id": "62f9292d-5242-4d9c-a52a-8ec464b65451"
+    },
+    {
+      "name": "Funda Protectora",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Funda resistente para proteger tu dispositivo de caídas y arañazos.",
+      "category": "Accesorios",
+      "brand": "ArmorGuard",
+      "stock": "25",
+      "price": "12.99",
+      "features": [
+        "Material duradero",
+        "Diseño elegante",
+        "Fácil instalación"
+      ],
+      "id": "6f1f5b7d-0ad4-4c33-bb87-241a00b7e0a3"
+    },
+    {
+      "name": "Mouse Inalámbrico",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Mouse ergonómico inalámbrico para mayor comodidad y precisión.",
+      "category": "Accesorios",
+      "brand": "ErgoMouse",
+      "stock": "40",
+      "price": "29.99",
+      "features": [
+        "Conexión sin cables",
+        "Diseño ergonómico",
+        "Sensor de alta precisión"
+      ],
+      "id": "a82b399e-9ac1-44a3-b9e4-71aa59b8df29"
+    },
+    {
+      "name": "Cable USB-C",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Cable USB-C de alta velocidad y resistencia para carga y transferencia de datos.",
+      "category": "Accesorios",
+      "brand": "SpeedLink",
+      "stock": "60",
+      "price": "9.99",
+      "features": [
+        "Transferencia rápida de datos",
+        "Carga rápida",
+        "Conector reversible"
+      ],
+      "id": "14cf55d9-7d12-4a5c-83b7-0deab09891b9"
+    },
+    {
+      "name": "Soporte para Teléfono",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Soporte ajustable para teléfono, ideal para ver contenido multimedia sin manos.",
+      "category": "Accesorios",
+      "brand": "FlexStand",
+      "stock": "20",
+      "price": "14.99",
+      "features": [
+        "Ajustable y versátil",
+        "Diseño plegable",
+        "Compatibilidad con diversos tamaños de teléfono"
+      ],
+      "id": "9d5cfa20-9719-4e8e-a975-e492c57a9a6a"
+    },
+    {
+      "name": "Consola Gaming X1",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Consola de juego de última generación con gráficos de alta definición y rendimiento excepcional.",
+      "category": "Consolas",
+      "brand": "PlayTech",
+      "stock": "15",
+      "price": "399.99",
+      "features": [
+        "Resolución 4K",
+        "Procesador de alta velocidad",
+        "Amplia biblioteca de juegos"
+      ],
+      "id": "bd2a8d64-2ac2-43e9-8b15-511739b6c14a"
+    },
+    {
+      "name": "Consola Portátil G7",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Consola de juegos portátil con pantalla de alta definición y diseño compacto.",
+      "category": "Consolas",
+      "brand": "MobiGame",
+      "stock": "20",
+      "price": "199.99",
+      "features": [
+        "Pantalla HD",
+        "Portabilidad",
+        "Conexión Wi-Fi"
+      ],
+      "id": "bda2c7e9-84bb-4f01-946d-82dcd864a2d7"
+    },
+    {
+      "name": "Consola Retro 8-bit",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Consola retro con juegos clásicos de 8 bits para revivir la nostalgia de los videojuegos.",
+      "category": "Consolas",
+      "brand": "NostalGame",
+      "stock": "10",
+      "price": "79.99",
+      "features": [
+        "Juegos clásicos",
+        "Estilo retro",
+        "Controladores estilo arcade"
+      ],
+      "id": "61f34964-ee6d-4b0c-b28a-950efea9e1b2"
+    },
+    {
+      "name": "Consola VR Immersio",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Consola de realidad virtual para experiencias de juego inmersivas y emocionantes.",
+      "category": "Consolas",
+      "brand": "VirtualEyes",
+      "stock": "8",
+      "price": "549.99",
+      "features": [
+        "Realidad virtual",
+        "Sensores de movimiento",
+        "Experiencias envolventes"
+      ],
+      "id": "57a5316b-3b8b-43f1-8b97-e0daac8a3f18"
+    },
+    {
+      "name": "Consola Multijugador M8",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Consola diseñada para juego en grupo con múltiples jugadores y modos cooperativos.",
+      "category": "Consolas",
+      "brand": "PartyPlay",
+      "stock": "12",
+      "price": "299.99",
+      "features": [
+        "Multijugador local",
+        "Diversión en grupo",
+        "Variedad de juegos"
+      ],
+      "id": "5ed3c677-4c87-45c4-8a10-6f0e8eb80c8e"
+    },
+    {
+      "name": "Reloj Inteligente TechTime",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Reloj inteligente con funciones avanzadas de seguimiento de salud y notificaciones en tiempo real.",
+      "category": "Gadgets",
+      "brand": "SmartTech",
+      "stock": "30",
+      "price": "149.99",
+      "features": [
+        "Monitorización de ritmo cardíaco",
+        "Notificaciones de mensajes y llamadas",
+        "Seguimiento de actividad física"
+      ],
+      "id": "28e0f97a-bcc5-44e2-aeab-bc0a526f5755"
+    },
+    {
+      "name": "Mini Proyector PocketView",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Proyector portátil de alta definición para disfrutar de películas y presentaciones en cualquier lugar.",
+      "category": "Gadgets",
+      "brand": "ProjectorTech",
+      "stock": "25",
+      "price": "199.99",
+      "features": [
+        "Proyección HD",
+        "Portabilidad",
+        "Conexión a dispositivos móviles"
+      ],
+      "id": "e97e6f6f-ecac-4416-bf0d-89c7f3eb358a"
+    },
+    {
+      "name": "Cargador Solar SunCharge",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Cargador solar portátil para recargar dispositivos en exteriores mediante energía solar.",
+      "category": "Gadgets",
+      "brand": "EcoPower",
+      "stock": "40",
+      "price": "49.99",
+      "features": [
+        "Carga solar",
+        "Portabilidad",
+        "Compatibilidad universal"
+      ],
+      "id": "1f789187-7b9c-4e17-a02c-075e9f8c94c3"
+    },
+    {
+      "name": "Traductor de Bolsillo LinguaTranslate",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Dispositivo de traducción instantánea para comunicarte en diferentes idiomas sin barreras.",
+      "category": "Gadgets",
+      "brand": "GlobalTalk",
+      "stock": "15",
+      "price": "89.99",
+      "features": [
+        "Traducción en tiempo real",
+        "Amplio catálogo de idiomas",
+        "Diseño compacto"
+      ],
+      "id": "79c3be9d-d7a6-43c5-9561-6f95e3845715"
+    },
+    {
+      "name": "Lámpara Inteligente GlowSmart",
+      "imageUrl": "https://i.postimg.cc/SKn9DFxq/no-product.png",
+      "description": "Lámpara inteligente con control de intensidad y cambio de color a través de una aplicación móvil.",
+      "category": "Gadgets",
+      "brand": "SmartLiving",
+      "stock": "20",
+      "price": "34.99",
+      "features": [
+        "Control remoto",
+        "Ajuste de color",
+        "Programación horaria"
+      ],
+      "id": "c4c1accd-8a1d-42e5-92e3-dfc70fb0c996"
+    }
+  ]
+}

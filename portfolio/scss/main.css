@@ -1,0 +1,571 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Satoshi-Variable", "Helvetica", "Arial", sans-serif;
+  height: 100vh;
+}
+
+img {
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/**
+ * @license
+ *
+ * Font Family: Satoshi
+ * Designed by: Deni Anggara
+ * URL: https://www.fontshare.com/fonts/satoshi
+ * © 2023 Indian Type Foundry
+ *
+ * Font Styles:
+ * Satoshi Variable(Variable font)
+ * Satoshi Variable Italic(Variable font)
+ * Satoshi Light
+ * Satoshi Light Italic
+ * Satoshi Regular
+ * Satoshi Italic
+ * Satoshi Medium
+ * Satoshi Medium Italic
+ * Satoshi Bold
+ * Satoshi Bold Italic
+ * Satoshi Black
+ * Satoshi Black Italic
+ *
+*/
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+@font-face {
+  font-family: "Satoshi-Variable";
+  src: url("../assets/fonts/Satoshi-Variable.woff2") format("woff2"), url("../assets/fonts/Satoshi-Variable.woff") format("woff"), url("../assets/fonts/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+  * This is a variable font
+  * You can controll variable axes as shown below:
+  * font-variation-settings: 'wght' 900.0;
+  *
+  * available axes:
+
+  * 'wght' (range from 300.0 to 900.0)
+
+  */
+@font-face {
+  font-family: "Satoshi-VariableItalic";
+  src: url("../assets/fonts/Satoshi-VariableItalic.woff2") format("woff2"), url("../assets/fonts/Satoshi-VariableItalic.woff") format("woff"), url("../assets/fonts/Satoshi-VariableItalic.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("../assets/fonts/Satoshi-Light.woff2") format("woff2"), url("../assets/fonts/Satoshi-Light.woff") format("woff"), url("../assets/fonts/Satoshi-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-LightItalic";
+  src: url("../assets/fonts/Satoshi-LightItalic.woff2") format("woff2"), url("../assets/fonts/Satoshi-LightItalic.woff") format("woff"), url("../assets/fonts/Satoshi-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../assets/fonts/Satoshi-Regular.woff2") format("woff2"), url("../assets/fonts/Satoshi-Regular.woff") format("woff"), url("../assets/fonts/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Italic";
+  src: url("../assets/fonts/Satoshi-Italic.woff2") format("woff2"), url("../assets/fonts/Satoshi-Italic.woff") format("woff"), url("../assets/fonts/Satoshi-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../assets/fonts/Satoshi-Medium.woff2") format("woff2"), url("../assets/fonts/Satoshi-Medium.woff") format("woff"), url("../assets/fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-MediumItalic";
+  src: url("../assets/fonts/Satoshi-MediumItalic.woff2") format("woff2"), url("../assets/fonts/Satoshi-MediumItalic.woff") format("woff"), url("../assets/fonts/Satoshi-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../assets/fonts/Satoshi-Bold.woff2") format("woff2"), url("../assets/fonts/Satoshi-Bold.woff") format("woff"), url("../assets/fonts/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-BoldItalic";
+  src: url("../assets/fonts/Satoshi-BoldItalic.woff2") format("woff2"), url("../assets/fonts/Satoshi-BoldItalic.woff") format("woff"), url("../assets/fonts/Satoshi-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("../assets/fonts/Satoshi-Black.woff2") format("woff2"), url("../assets/fonts/Satoshi-Black.woff") format("woff"), url("../assets/fonts/Satoshi-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-BlackItalic";
+  src: url("../assets/fonts/Satoshi-BlackItalic.woff2") format("woff2"), url("../assets/fonts/Satoshi-BlackItalic.woff") format("woff"), url("../assets/fonts/Satoshi-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+section > h2 {
+  margin: 0 0 2.5rem;
+  color: #ccc;
+  font-size: clamp(1.125rem, 2.8vw, 1.5rem);
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+input {
+  width: 100%;
+  padding: clamp(0.85rem, 4vw, 1rem) clamp(1.5rem, 4vw, 2rem);
+  border: 1px solid #000;
+  border-radius: 100vw;
+  font-family: "Satoshi-Variable";
+  font-size: clamp(1rem, 4vw, 1.125rem);
+  font-weight: 500;
+}
+input::-moz-placeholder {
+  color: #ccc;
+}
+input::placeholder {
+  color: #ccc;
+}
+
+textarea {
+  width: 100%;
+  height: 260px;
+  padding: clamp(1.25rem, 4vw, 1.5rem) clamp(1.5rem, 4vw, 2rem) 6rem;
+  border: 1px solid #000;
+  border-radius: 2rem;
+  font-family: "Satoshi-Variable";
+  font-size: clamp(1rem, 4vw, 1.125rem);
+  line-height: clamp(1.25rem, 4vw, 1.5rem);
+  font-weight: 500;
+  resize: none;
+}
+textarea::-webkit-scrollbar {
+  display: none;
+}
+textarea::-moz-placeholder {
+  color: #ccc;
+}
+textarea::placeholder {
+  color: #ccc;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 8.3%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.wrp-mn {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.header {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .lnk {
+  padding: 0.25rem 0;
+  font-size: clamp(1rem, 4vw, 1.125rem);
+  font-weight: 500;
+  position: relative;
+}
+.header .lnk::after {
+  content: "";
+  background: #000;
+  width: 0%;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: ease-in-out 0.3s;
+}
+.header .lnk:hover::after {
+  width: 100%;
+  left: 0;
+  transition: ease-in-out 0.3s;
+}
+.header .lnk-spcl::after {
+  content: "";
+  background: #fff;
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  transition: ease-in-out 0.5s;
+}
+.header .lnk-spcl:hover::after {
+  transform: translateX(100%);
+  transition: ease-in-out 0.5s;
+}
+.header .lnk-spcl {
+  border-bottom: 1px solid #000;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .header .lnk-spcl {
+    display: block;
+  }
+}
+.header img {
+  max-width: 2rem;
+}
+
+.wrp-ovw {
+  width: 100%;
+  margin: clamp(6rem, 12vw, 8rem) 0 clamp(5rem, 12vw, 6rem);
+  padding: 1.5rem 0;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.overview__text {
+  max-width: 50rem;
+}
+.overview__text h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 7vw, 3.75rem);
+  font-weight: 700;
+  line-height: clamp(2.5rem, 7vw, 3.75rem);
+  letter-spacing: -2px;
+}
+.overview__text h1 span {
+  display: inline-block;
+  background: #33E8D2;
+  padding: 0 0.75rem 0;
+}
+@media (min-width: 940px) {
+  .overview__text h1 span.pdng {
+    padding-left: 0rem;
+  }
+}
+.overview__buttons {
+  display: flex;
+  gap: 1rem;
+}
+.overview__buttons .btn {
+  padding: 0.75rem 2rem;
+  border-radius: 100vw;
+  border: 1px solid black;
+  font-size: clamp(1rem, 4vw, 1.125rem);
+  font-weight: 500;
+}
+.overview__buttons .btn-spcl {
+  background: black;
+  color: white;
+  border: none;
+}
+
+.wrp-crsl {
+  padding: 2rem 0;
+}
+.wrp-crsl .spl-img span,
+.wrp-crsl .splide span {
+  font-weight: 500;
+  font-size: clamp(1rem, 4vw, 1.125rem);
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.wrp-crsl .spl-img__track,
+.wrp-crsl .splide__track {
+  overflow: visible;
+}
+.wrp-crsl .spl-img__slide,
+.wrp-crsl .splide__slide {
+  padding-right: 1.5rem;
+  max-width: 45.25rem;
+}
+.wrp-crsl .spl-img__slide .img,
+.wrp-crsl .splide__slide .img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.wrp-skls {
+  padding: 4.25rem 0 2rem;
+}
+.wrp-skls .spl-txt__track,
+.wrp-skls .splide__track {
+  overflow: visible;
+}
+.wrp-skls .spl-txt__list,
+.wrp-skls .splide__list {
+  gap: 3rem;
+}
+.wrp-skls .spl-txt__slide,
+.wrp-skls .splide__slide {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  font-size: clamp(2.5rem, 6vw, 3rem + 2px);
+  font-weight: 700;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.wrp-prjs {
+  padding: 4.25rem 0 2rem;
+}
+.wrp-prjs .lnk-prjs {
+  font-size: clamp(1.125rem, 3.5vw, 1.5rem);
+  font-weight: 500;
+  border-bottom: 1px solid #ccc;
+}
+.wrp-prjs .lnk-prjs a {
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  transition: ease-in-out 0.3s;
+}
+.wrp-prjs .lnk-prjs a span {
+  transition: ease-in-out 0.3s;
+}
+.wrp-prjs .lnk-prjs a:hover {
+  transition: ease-in-out 0.3s;
+}
+.wrp-prjs .lnk-prjs a:hover span {
+  transform: rotate(-45deg);
+}
+
+.wrp-abt {
+  padding: 4.25rem 0 2rem;
+}
+.wrp-abt .about-me {
+  border-bottom: 1px solid #ccc;
+}
+.wrp-abt .about-me__title {
+  padding-bottom: 6.25rem;
+  display: flex;
+  justify-content: end;
+  text-align: right;
+}
+.wrp-abt .about-me__title span {
+  max-width: 40rem;
+  font-size: clamp(2.5rem, 7vw, 3rem + 2px);
+  font-weight: 700;
+  line-height: clamp(2.5rem, 7vw, 3rem + 2px);
+  letter-spacing: -2px;
+}
+.wrp-abt .about-me__content {
+  padding: clamp(4rem, 10vw, 6.25rem) 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: space-between;
+}
+@media (min-width: 58.75rem) {
+  .wrp-abt .about-me__content {
+    flex-direction: row;
+  }
+}
+@media (min-width: 58.75rem) {
+  .wrp-abt .about-me__content--edu {
+    flex-direction: row-reverse;
+  }
+}
+.wrp-abt .about-me__content > h3 {
+  margin: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: clamp(1.125rem, 2.8vw, 1.5rem);
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+@media (min-width: 58.75rem) {
+  .wrp-abt .about-me__content .info {
+    max-width: 60%;
+    flex-direction: row;
+  }
+}
+.wrp-abt .about-me__content .info__title {
+  margin: 0;
+  padding: 0 0 2rem;
+  font-size: clamp(1.125rem, 2.8vw, 1.5rem);
+  font-weight: 500;
+}
+.wrp-abt .about-me__content .info ul li {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: clamp(1rem, 4vw, 1.125rem);
+  font-weight: 500;
+}
+.wrp-abt .about-me__content .info ul li h4 {
+  margin: 0;
+  font-weight: 500;
+}
+.wrp-abt .about-me__content .info ul li p {
+  margin: 0;
+  color: #ccc;
+}
+.wrp-abt .about-me__content .info ul li::marker {
+  font-weight: 500;
+}
+
+.wrp-cnt {
+  padding: 4.25rem 0 2rem;
+}
+
+.contact span {
+  font-size: clamp(2.5rem, 7vw, 3rem + 2px);
+  font-weight: 700;
+  line-height: clamp(2.5rem, 7vw, 3rem + 2px);
+  letter-spacing: -2px;
+}
+.contact span ~ span {
+  display: block;
+  color: #ccc;
+}
+.contact__title {
+  margin-bottom: 2.5rem;
+}
+.contact__form {
+  max-width: 38.75rem;
+}
+.contact__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact__form form .splt {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (min-width: 560px) {
+  .contact__form form .splt {
+    flex-direction: row;
+  }
+}
+.contact__form form .msg {
+  position: relative;
+}
+.contact__form form .msg button {
+  background: #000;
+  border: none;
+  border-radius: 100vw;
+  padding: 0.875rem 2rem;
+  font-size: clamp(1.125rem, 2.8vw, 1.5rem);
+  position: absolute;
+  right: 1.125rem;
+  bottom: 1.125rem;
+  cursor: pointer;
+}
+.contact__form form .msg button i {
+  color: #fff;
+}
+.contact__social-media ul {
+  padding: 1.5rem 0;
+  display: flex;
+  gap: 2rem;
+}
+.contact__social-media ul li .lnk {
+  padding: 0.25rem 0;
+  font-size: clamp(1rem, 4vw, 1.125rem);
+  font-weight: 500;
+  position: relative;
+}
+.contact__social-media ul li .lnk::after {
+  content: "";
+  background: #000;
+  width: 0%;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: ease-in-out 0.3s;
+}
+.contact__social-media ul li .lnk:hover::after {
+  width: 100%;
+  left: 0;
+  transition: ease-in-out 0.3s;
+}
+.contact__social-media ul li .lnk-spcl::after {
+  content: "";
+  background: #fff;
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  transition: ease-in-out 0.5s;
+}
+.contact__social-media ul li .lnk-spcl:hover::after {
+  transform: translateX(100%);
+  transition: ease-in-out 0.5s;
+}
+
+.footer {
+  padding: 4.25rem 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: clamp(1rem, 4vw, 1.125rem);
+  font-weight: 500;
+}
+.footer span {
+  color: #ccc;
+  letter-spacing: -1px;
+}/*# sourceMappingURL=main.css.map */

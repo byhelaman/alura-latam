@@ -1,0 +1,51 @@
+// Hover para enlaces
+@mixin lnk() {
+  &::after {
+    content: '';
+    background: #000;
+
+    width: 0%;
+    height: 1px;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    transition: ease-in-out .3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+    left: 0;
+    transition: ease-in-out .3s;
+  }
+
+  &-spcl {
+    &::after {
+      content: '';
+      background: #fff;
+      height: 1px;
+
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+
+      transition: ease-in-out .5s;
+    }
+
+    &:hover::after {
+      transform: translateX(100%);
+      transition: ease-in-out .5s;
+    }
+  }
+}
+
+// Hover para botones
+@mixin prjs() {
+  &:hover {
+    & span {
+      transform: rotate(-45deg);
+      transition: ease-in-out .3s;
+    }
+  }
+}
